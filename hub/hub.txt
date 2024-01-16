@@ -3,4 +3,4 @@ shortLabel my hub
 longLabel my hub
 genomesFile genomes.txt
 email t.m.jarva13@gmail.com
-descriptionURL https://raw.githubusercontent.com/stupornova33/ucsc_hub/main/hub/hub.txt
+descriptionURL https://raw.githubusercontent.com/stupornova33/ucsc_hub/main/hub/c_elegans/description.html
