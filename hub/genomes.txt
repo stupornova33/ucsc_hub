@@ -1,0 +1,33 @@
+genome Anc0
+twoBitPath Anc0/Anc0.2bit
+trackDb Anc0/trackDb.txt
+groups groups.txt
+htmlPath Anc0/description.html
+description Anc0
+organism Anc0
+orderKey 4800
+scientificName Anc0
+defaultPos Anc0refChr0_0:1-1000
+
+genome _MINIGRAPH_
+twoBitPath _MINIGRAPH_/_MINIGRAPH_.2bit
+trackDb _MINIGRAPH_/trackDb.txt
+groups groups.txt
+htmlPath _MINIGRAPH_/description.html
+description _MINIGRAPH_
+organism _MINIGRAPH_
+orderKey 4800
+scientificName _MINIGRAPH_
+defaultPos s1:1-1000
+
+genome c_elegans
+twoBitPath c_elegans/c_elegans.2bit
+trackDb c_elegans/trackDb.txt
+groups groups.txt
+htmlPath c_elegans/description.html
+description c_elegans
+organism c_elegans
+orderKey 4800
+scientificName c_elegans
+defaultPos NC_003284.9:1-1000
+

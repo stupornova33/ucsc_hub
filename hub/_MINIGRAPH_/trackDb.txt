@@ -1,0 +1,47 @@
+track hubCentral
+compositeTrack on
+shortLabel my hub
+longLabel my hub
+group comphub
+subGroup1 view Track_Type Snake=Alignments  
+subGroup2 orgs Organisms Anc0=Anc0 _MINIGRAPH_=_MINIGRAPH_ c_elegans=c_elegans
+dragAndDrop subTracks
+#allButtonPair on
+dimensions dimensionX=view dimensionY=orgs
+noInherit on
+priority 0
+centerLabelsDense on
+visibility full
+html ../documentation/hubCentral
+type bigBed 3
+
+	track hubCentralAlignments
+	shortLabel Alignments
+	view Alignments
+	visibility full
+	subTrack hubCentral
+
+		track snakeAnc0
+		longLabel Anc0
+		shortLabel Anc0
+		otherSpecies Anc0
+		visibility full
+		parent hubCentralAlignments
+		priority 2
+		bigDataUrl ../c_elegans.full.hal
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=Anc0
+
+		track snakec_elegans
+		longLabel c_elegans
+		shortLabel c_elegans
+		otherSpecies c_elegans
+		visibility full
+		parent hubCentralAlignments
+		priority 4
+		bigDataUrl ../c_elegans.full.hal
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=c_elegans
+
