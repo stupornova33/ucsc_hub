@@ -1,4 +1,4 @@
-hub myHub
+hub hub
 shortLabel my hub
 longLabel my hub
 genomesFile genomes.txt
