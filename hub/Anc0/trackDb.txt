@@ -28,7 +28,7 @@ type bigBed 3
 		visibility full
 		parent hubCentralAlignments
 		priority 3
-		bigDataUrl ../c_elegans.full.hal
+		bigDataUrl https://raw.githubusercontent.com/stupornova33/ucsc_hub/main/hub/c_elegans.full.hal
 		type halSnake
 		group snake
 		subGroups view=Snake orgs=_MINIGRAPH_
@@ -40,7 +40,7 @@ type bigBed 3
 		visibility full
 		parent hubCentralAlignments
 		priority 4
-		bigDataUrl ../c_elegans.full.hal
+		bigDataUrl https://raw.githubusercontent.com/stupornova33/ucsc_hub/main/hub//c_elegans.full.hal
 		type halSnake
 		group snake
 		subGroups view=Snake orgs=c_elegans
